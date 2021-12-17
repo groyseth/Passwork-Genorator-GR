@@ -11,9 +11,9 @@ var generateBtn = document.querySelector("#generate");
 
 
 function generatePassword() {
-  var userPic = []
+  var userPic = [];
   var passwordLength;
-  // var collect = []
+  var collect = []
   
   
   var numeric = ["1","2","3","4","5","6","7","8","9","0"]
@@ -57,17 +57,25 @@ function generatePassword() {
   
   
   // userPic.push(collect);
-  for (let i = 0; i < passwordLength; i++) {
-    userPic += passwordLength [i] ;
+  for (var i = 0; i < passwordLength; i++) {
+    var charAmount = userPic[(Math.floor((Math.random() * userPic.length)))]
+    collect.push(charAmount);
   }
+   
+  // userPic = (Math.floor((Math.random() * passwordLength.length)));
+  // }
+  
   // pulling a random character from userPics for each value of passwordLength
-  //  Math.floor((Math.random() * 10) + 1);
-  console.log(passwordLength)
-  userPic.push("password");
-  console.log(password)
+  // passwordLength.push(userPic);
+ var passwordText = collect.join("");
+  collect=[]
+
+ console.log(passwordLength);
+ console.log(userPic);
 
  
-  return password}  
+  return passwordText;
+}  
 
    
   
