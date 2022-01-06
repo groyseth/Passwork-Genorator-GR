@@ -13,6 +13,6 @@ connected it to the empty array "collect".
 Once I tested that collect was working in the dev tool, I joined it to "passwordText".
 Now when you click generate password and enter the prompt and confirms, you have a generated password with the correct crytieria.
 
-[Password-Genorator link](http://www.google.fr/ "Check it out!")
+[Password-Genorator link](https://groyseth.github.io/Passwork-Genorator-GR/ "Check it out!")
 ![Screenshot (13)](https://user-images.githubusercontent.com/90479839/146471367-62bbbb00-ddd2-4a9b-9736-e439baaaa27a.png)
 ![Screenshot (14)](https://user-images.githubusercontent.com/90479839/146471382-2efd0a52-88af-4235-afa7-f31b2c41e036.png)
